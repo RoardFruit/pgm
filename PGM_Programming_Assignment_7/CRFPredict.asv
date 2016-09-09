@@ -1,0 +1,7 @@
+function [ output_args ] = CRFPredict( X,theta )
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+featureSet = GenerateAllFeatures(X, modelParams);
+
+end
+
